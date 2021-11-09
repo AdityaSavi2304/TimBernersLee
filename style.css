@@ -80,20 +80,23 @@ p
 {
     list-style: none;
     font-family: sans-serif;
+    font-weight: bold;
+    background-color: white;
     position: fixed;
-    top: 10px;
-    right: 30px;
+    margin-top: 0px;
+    top: 0px;
+    width: 100%;
     z-index: 10;
     cursor: pointer;
 }
 .links
 {
-    float: left;
+    display: inline;
     color: white;
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-right: 9px;
-    padding-left: 10px;
+    padding-right: 25px;
+    padding-left: 33px;
     font-size: 18px;
 }
 .links:hover
@@ -112,4 +115,17 @@ a
 .article:hover
 {
     color: fuchsia;
+}
+.contact_1
+{
+    background-color: firebrick;
+}
+.contact_1 h3
+{
+    display: inline;
+}
+.contact_1 a
+{
+    color: white;
+    text-shadow: none;
 }
